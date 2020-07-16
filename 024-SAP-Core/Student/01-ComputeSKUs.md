@@ -10,6 +10,60 @@ The first step in the SAP on Azure journey, begins with sizing and selecting cer
 
 In this challenge we'll design the vcpu and memory requirements for running a high availability SAP HANA scale-up cluster with HSR sync (HANA vanilla install)
 
+
+Approach & Reference: 
+
+ 
+
+Understand the cope of cloud foundation/landing zone 
+
+Review SAP and MS Sizing guidelines 
+
+SAP note - 1928533 
+
+HANA certified hardware inventory
+https://www.sap.com/dmc/exp/2014-09-02-hana-hardware/enEN/iaas.html#categories=Microsoft%20Azure
+
+
+Conduct Requirement gathering calls (combined with other processes or solo) 
+
+Be familiar with the below links  
+
+Links: 
+
+# 
+
+
+
+Cloud Adoption Framework 
+https://azure.microsoft.com/en-us/cloud-adoption-framework/
+
+Landing zone considerations 
+https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/considerations/
+ 
+
+ 
+
+Landing Zone SAP Infra. Requirements 
+
+Selected regions 
+
+Network segmentation approach/requirements 
+
+On-Premises connectivity approach 
+
+Naming Convention approach 
+
+Tagging requirements 
+
+Firewall requirements 
+
+Hub VNET required components for SAP (such as SAP Router, Jump Boxes, ADDS etc.) 
+
+HLI requirements 
+
+
+
 - Deploy build agent VM with Linux + Docker using provided ARM Template and parameters file in the "Files" tab of the Team's General channel. Run the Fab Medical application locally on the VM and verify access
 	- Each part of the app (api and web) runs independently.
 	- Build the API app by navigating to the content-api folder and run `npm install`.
