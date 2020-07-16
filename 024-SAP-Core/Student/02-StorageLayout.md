@@ -20,3 +20,20 @@ In this challenge we will be creating and setting up a new, private, Azure Conta
 
 1. You have designed the filesystem layout.
 2. You have identified the storage containers and data disk sku's.
+
+
+
+RK - notes
+
+• Design storage layout for HANA scale-up system
+
+Hint: Follow SAP TDI guidelines
+
+
+Different Storage types for HANA on Azure: 
+
+		○ Azure premium SSD or premium storage
+		○ Ultra disk
+		○ Azure NetApp Files
+		○ Filesystem types
+
